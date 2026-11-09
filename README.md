@@ -35,6 +35,29 @@ fixed it, what we learned, and what we're doing with it now. All numbers come fr
 | Nov 5 | 3 pull requests fixing version 1 reading in openbook-v2, x402scan and ibc-contracts |
 | Nov 8–9 | Memecoin lanes all lose → retired; Night Desk stocks + forex research; Rug Check live; forex forward paper test starts |
 
+## Time spent (estimated)
+Measured two ways: **git commits** (commits under 2 hours apart = one session, plus 30 minutes of lead-in) and **Claude Code
+chat history** (messages under 30 minutes apart = active time, credited to the project being worked on). Chat history only
+goes back to Oct 10, so Aug 30 – Oct 9 comes from git alone. Script: [`tools/hours.py`](tools/hours.py).
+
+| Project | ≈ Hours | Notes |
+|---|---|---|
+| Solana Pulse | **~165** | ~26 h of git sessions Aug 30 – Oct 9 + ~139 h since Oct 10 (incl. grant, listings, videos, Telegram bot) |
+| Trade Desk (memecoins) | ~40 | Nov 1–9 |
+| Phone setup + AI tooling | ~17 | Termux, voice mode, second-AI handoff, desk tools |
+| V1 Ready + bug reports | ~19 | Measurement pipeline, 32 reports, 3 fix PRs |
+| CashOut Check | ~10 | |
+| Base Pulse | ~9 | |
+| Freelance (Fiverr, Freelancer, Gig Bidder) | ~6 | |
+| Night Desk (stocks + forex) | ~5 | Most of the forex research ran in long automated test batches |
+| Firewood Buyers | ~4 | |
+| Dev log + portfolio | ~4 | |
+| Rug Check, Money Scan, Clip Drop | ~2 | |
+| **Total** | **≈ 250 hours** | Aug 30 → Nov 9; active **every one of the 31 days** from Oct 10 to Nov 9 (~7 h a day on average), outside a day job |
+
+These are estimates: chat time counts sessions where the AI was working, not just minutes at the keyboard, and work done
+outside Claude Code (Google AI Studio in August, reading, outreach in apps) isn't counted. Parallel sessions overlap a little.
+
 ## Money made so far: $0
 All-time revenue is $1.11, and that was our own test payments. No grant (one rejected), no paid users, no trading profit.
 What it did produce: a live product with a public benchmark, an ecosystem bug found and fixed in 6 other projects, five bots,
