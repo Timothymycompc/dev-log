@@ -9,6 +9,7 @@ fixed it, what we learned, and what we're doing with it now. All numbers come fr
 | [Solana Pulse](solana-pulse.md) | Safety gateway for AI agents on Solana: 15+ tools, x402 payments, public benchmark, found an ecosystem-wide bug. Live since early October |
 | [Telegram bots and other projects](bots-and-tools.md) | Five Telegram bots, Base Pulse, Rug Check, V1 Ready, 31 bug reports with 7 fixes merged, ops tools and videos |
 | [APIs, cloud hosting and AI](apis-cloud-ai.md) | What I learned using ~20 APIs, running everything on Google Cloud, and building with (and for) AI |
+| [Secrets and security](security.md) | How keys, wallets and user data are kept safe: Secret Manager, hard wallet limits, check-before-sign, no IPs stored |
 | [Trading review](https://github.com/Timothymycompc/trading-review) | Honest backtests of memecoins, stocks and forex — with all code and the raw price data |
 
 ## Timeline
