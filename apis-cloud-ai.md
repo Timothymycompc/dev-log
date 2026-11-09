@@ -14,7 +14,7 @@ Freelancer.com, Google Text-to-Speech, Overture/OpenStreetMap/NWS/FCC (free publ
 | **An error message can lie.** A "no route for this swap" (HTTP 400) was being reported as "Jupiter is down" (503), so a rugged coin was never recognised | Read status codes properly; tests for each error path |
 | **Silence isn't an answer.** One source having no price doesn't mean a coin is dead; a failed call isn't "zero" | Say "unknown", never guess; use a second source only when it's comparable |
 | **APIs have quirks.** Alpaca's free feed returns nothing without a start date; Oanda's daily candles start at 5 PM New York; the Fed's site lists meetings in four different formats | Read the docs, then test against real responses and keep them as fixtures |
-| **The chain changes under you.** Solana started carrying *version 1* transactions that common libraries couldn't decode | Measured it, fixed Pulse, reported it to 31 projects |
+| **The chain changes under you.** Solana started carrying *version 1* transactions that common libraries couldn't decode | Measured it, fixed Pulse, reported it to 32 projects |
 | **Respect the site.** Some data sites block automated downloads | Never worked around a bot check; found an official API instead |
 | **Keys are money** ([more on security](security.md)). Every key lives in Google Secret Manager, loaded at startup; tokens expire and need renewing (the bug-report job's GitHub token runs 90 days) | A `save-secret` helper copies a key from the phone clipboard straight into Secret Manager without it ever being printed |
 | **Data has terms.** Price data from brokers comes with rules about re-sharing | Learned to check before publishing |

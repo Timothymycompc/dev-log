@@ -18,7 +18,7 @@ TypeScript, Google Cloud Run, Postgres, secrets in Google Secret Manager, and a 
 | **Base Pulse** | Pulse's safety tools for AI agents paying on Base: `x402_check`, `recipient_check`, `approvals`, sanctions list check, smart-wallet aware `check_tx` / `tx_matches` | Live since Oct 14, [repo](https://github.com/Timothymycompc/base-pulse) |
 | **Rug Check** | Free "is this Solana token a rug?" page on top of Pulse, built for search traffic | Live (Nov 9); needs its own domain for ads |
 | **V1 Ready** | Measures and helps fix apps that can't read Solana's version 1 transactions: daily share of v1 swaps, a "prove it" script, a scanner for affected repos | Pipeline live in its own cloud project (private for now) |
-| **Bug reports** | 31 real bug reports on the v1 transaction issue, posted by a scheduled cloud job (max 6 a day) | Fixes merged in 7 projects |
+| **Bug reports** | 32 real bug reports on the v1 transaction issue (Oct 28 – Nov 1), posted by a scheduled cloud job (max 6 a day); 3 fix pull requests of my own on Nov 5 | Fixes merged in 6 projects |
 | **Trade Desk / Night Desk** | Paper-trading research desks for memecoins, stocks and forex | See the [trading review](https://github.com/Timothymycompc/trading-review) |
 | **Clip Drop** | Upload a video once, post it to Facebook and Instagram Reels — built for a friend starting out with videos | Built, not deployed |
 | **Ops tools** | `pulse-stats` (honest usage), `pulse-status` (PRs, issues, scam sites vs a baseline), `db-look` (read-only database view), `pulse-leads` (public questions Pulse could answer) | In daily use |

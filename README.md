@@ -15,7 +15,7 @@ fixed it, what we learned, and what we're doing with it now. All numbers come fr
 | Part | One line |
 |---|---|
 | [Solana Pulse](solana-pulse.md) | Safety gateway for AI agents on Solana: 15+ tools, x402 payments, public benchmark, found an ecosystem-wide bug. Live since early October |
-| [Telegram bots and other projects](bots-and-tools.md) | Five Telegram bots, Base Pulse, Rug Check, V1 Ready, 31 bug reports with 7 fixes merged, ops tools and videos |
+| [Telegram bots and other projects](bots-and-tools.md) | Five Telegram bots, Base Pulse, Rug Check, V1 Ready, 32 bug reports with fixes merged in 6 projects, ops tools and videos |
 | [APIs, cloud hosting and AI](apis-cloud-ai.md) | What I learned using ~20 APIs, running everything on Google Cloud, and building with (and for) AI |
 | [Secrets and security](security.md) | How keys, wallets and user data are kept safe: Secret Manager, hard wallet limits, check-before-sign, no IPs stored |
 | [Trading review](https://github.com/Timothymycompc/trading-review) | Honest backtests of memecoins, stocks and forex — with all code and the raw price data |
@@ -28,15 +28,16 @@ fixed it, what we learned, and what we're doing with it now. All numbers come fr
 | Oct 14 | Base Pulse live |
 | Oct 16–19 | Pulse rebuilt for honesty: no-JS pages, `token_safety` audit, public benchmark 9/9, 200-tx everyday test |
 | Oct 19 | Found that ~35–44% of Solana swaps are version 1 transactions many apps can't read; Pulse fixed; Solana Foundation grant submitted |
-| Oct 20–21 | Listings (TensorBlock, awesome-remote-mcp-servers, Pay.sh, sendaifun), npm plugin, demo videos |
+| Oct 18–26 | Listed in 4 curated lists (awesome-remote-mcp-servers, TensorBlock, Awesome-AI-Agents, mcpHQ); Pay.sh and sendaifun PRs open; npm plugin; demo videos |
 | Oct 22–25 | CashOut Check, Money Scan, Gig Bidder, Firewood Buyers; @SolanaPulseCheckBot |
-| Oct 27–31 | 31 bug reports posted by a scheduled job; first fixes merged; V1 Ready pipeline; Pulse v0.8.0 |
+| Oct 28 – Nov 1 | 32 version 1 bug reports posted by a scheduled job; first fixes merged; V1 Ready pipeline; Pulse v0.8.0 (Oct 31) |
 | Nov 1 | Grant rejected ("not far enough along"); Trade Desk memecoin desk starts |
+| Nov 5 | 3 pull requests fixing version 1 reading in openbook-v2, x402scan and ibc-contracts |
 | Nov 8–9 | Memecoin lanes all lose → retired; Night Desk stocks + forex research; Rug Check live; forex forward paper test starts |
 
 ## Money made so far: $0
 All-time revenue is $1.11, and that was our own test payments. No grant (one rejected), no paid users, no trading profit.
-What it did produce: a live product with a public benchmark, an ecosystem bug found and fixed in 7 other projects, five bots,
+What it did produce: a live product with a public benchmark, an ecosystem bug found and fixed in 6 other projects, five bots,
 a pile of honest research, and the skills to build and run cloud services end to end, starting from almost nothing.
 
 ## What I'd say I learned
@@ -45,7 +46,7 @@ a pile of honest research, and the skills to build and run cloud services end to
 2. **Honest measurement beats big claims.** The benchmark, the track record with misses, and the trading tests that admit failure
    are the most valuable things here.
 3. **Most "wins" are bugs until proven otherwise.** In trading especially.
-4. **Real problems found in real data are worth the most.** The version 1 transaction bug got fixes merged in 7 other projects.
+4. **Real problems found in real data are worth the most.** The version 1 transaction bug got fixes merged in 6 other projects.
 5. **A phone and a cloud account are enough to build real services.** Heavy work goes to the cloud; the phone runs the show.
 6. **AI makes you fast, not right.** It writes the code; checking the numbers, the claims and the edge cases is still on me.
    ([more on APIs, cloud and AI](apis-cloud-ai.md))
