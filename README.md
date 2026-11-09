@@ -8,6 +8,7 @@ fixed it, what we learned, and what we're doing with it now. All numbers come fr
 |---|---|
 | [Solana Pulse](solana-pulse.md) | Safety gateway for AI agents on Solana: 15+ tools, x402 payments, public benchmark, found an ecosystem-wide bug. Live since early October |
 | [Telegram bots and other projects](bots-and-tools.md) | Five Telegram bots, Base Pulse, Rug Check, V1 Ready, 31 bug reports with 7 fixes merged, ops tools and videos |
+| [APIs, cloud hosting and AI](apis-cloud-ai.md) | What I learned using ~20 APIs, running everything on Google Cloud, and building with (and for) AI |
 | [Trading review](https://github.com/Timothymycompc/trading-review) | Honest backtests of memecoins, stocks and forex — with all code and the raw price data |
 
 ## Timeline
@@ -37,6 +38,8 @@ a pile of honest research, and the skills to build and run cloud services end to
 3. **Most "wins" are bugs until proven otherwise.** In trading especially.
 4. **Real problems found in real data are worth the most.** The version 1 transaction bug got fixes merged in 7 other projects.
 5. **A phone and a cloud account are enough to build real services.** Heavy work goes to the cloud; the phone runs the show.
+6. **AI makes you fast, not right.** It writes the code; checking the numbers, the claims and the edge cases is still on me.
+   ([more on APIs, cloud and AI](apis-cloud-ai.md))
 
 ## What we're doing with it now
 - **Pulse:** upkeep, and reaching people directly (Rug Check, Telegram bot) instead of waiting in directories.
