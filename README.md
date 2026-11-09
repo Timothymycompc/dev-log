@@ -1,3 +1,11 @@
+<p align="center"><img src="assets/banner.svg" alt="Tim's Dev Log" width="100%"></p>
+
+<p align="center">
+
+[![Solana Pulse: live](https://img.shields.io/badge/Solana_Pulse-live-10b981?style=flat-square&labelColor=0a0f19)](https://github.com/Timothymycompc/solana-pulse-ai-agent-gateway) ![projects: 10+](https://img.shields.io/badge/projects-10%2B-dfc58a?style=flat-square&labelColor=0a0f19) ![Telegram bots: 5](https://img.shields.io/badge/Telegram_bots-5-cfab66?style=flat-square&labelColor=0a0f19) ![bug fixes merged: 7 projects](https://img.shields.io/badge/bug_fixes_merged-7_projects-10b981?style=flat-square&labelColor=0a0f19) ![profit so far: $0](https://img.shields.io/badge/profit_so_far-%240-f59e0b?style=flat-square&labelColor=0a0f19) ![built on: a phone + Google Cloud](https://img.shields.io/badge/built_on-a_phone_%2B_Google_Cloud-b8914b?style=flat-square&labelColor=0a0f19)
+
+</p>
+
 # Tim's dev log: Aug–Nov 2026
 
 Everything I've built in my spare time since late August 2026, mostly on a phone, with AI pair-programmers (Claude Code,
