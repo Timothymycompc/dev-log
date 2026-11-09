@@ -2,7 +2,7 @@
 
 <p align="center">
 
-[![Solana Pulse: live](https://img.shields.io/badge/Solana_Pulse-live-10b981?style=flat-square&labelColor=0a0f19)](https://github.com/Timothymycompc/solana-pulse-ai-agent-gateway) ![projects: 10+](https://img.shields.io/badge/projects-10%2B-dfc58a?style=flat-square&labelColor=0a0f19) ![Telegram bots: 5](https://img.shields.io/badge/Telegram_bots-5-cfab66?style=flat-square&labelColor=0a0f19) ![bug fixes merged: 7 projects](https://img.shields.io/badge/bug_fixes_merged-7_projects-10b981?style=flat-square&labelColor=0a0f19) ![profit so far: $0](https://img.shields.io/badge/profit_so_far-%240-f59e0b?style=flat-square&labelColor=0a0f19) ![built on: a phone + Google Cloud](https://img.shields.io/badge/built_on-a_phone_%2B_Google_Cloud-b8914b?style=flat-square&labelColor=0a0f19)
+[![Solana Pulse: live](https://img.shields.io/badge/Solana_Pulse-live-10b981?style=flat-square&labelColor=0a0f19)](https://github.com/Timothymycompc/solana-pulse-ai-agent-gateway) ![projects: 10+](https://img.shields.io/badge/projects-10%2B-dfc58a?style=flat-square&labelColor=0a0f19) ![Telegram bots: 5](https://img.shields.io/badge/Telegram_bots-5-cfab66?style=flat-square&labelColor=0a0f19) ![bug fixes merged: 6 projects](https://img.shields.io/badge/bug_fixes_merged-6_projects-10b981?style=flat-square&labelColor=0a0f19) ![profit so far: $0](https://img.shields.io/badge/profit_so_far-%240-f59e0b?style=flat-square&labelColor=0a0f19) ![built on: a phone + Google Cloud](https://img.shields.io/badge/built_on-a_phone_%2B_Google_Cloud-b8914b?style=flat-square&labelColor=0a0f19)
 
 </p>
 
