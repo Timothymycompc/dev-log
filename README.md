@@ -8,6 +8,8 @@
 
 # Tim's dev log: Aug–Nov 2026
 
+Portfolio site: **[timothymycompc.github.io](https://timothymycompc.github.io)**
+
 Everything I've built in my spare time since late August 2026, mostly on a phone, with AI pair-programmers (Claude Code,
 plus Google's Antigravity/Gemini for reviews): what each project is, the data it uses, what we tested, what went wrong, how we
 fixed it, what we learned, and what we're doing with it now. All numbers come from real data and say where they come from.
