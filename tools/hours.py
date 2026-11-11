@@ -4,6 +4,9 @@
 import subprocess, os, re, glob, collections, datetime as dt
 
 HOME = "/root"
+# SINCE=2026-11-10T06:00:00Z counts only time after that moment (for adding new days to an earlier total:
+# Claude Code clears chat history older than ~30 days, so a full rerun undercounts old weeks).
+SINCE = os.environ.get("SINCE")
 PROJECT_OF_REPO = {
     "pulse-site": "Solana Pulse", "solana-pulse-ai-agent-gateway": "Solana Pulse", "pulse-benchmark": "Solana Pulse",
     "base-pulse": "Base Pulse", "cashout-check": "CashOut Check", "clip-drop": "Clip Drop", "dev-log": "Dev log + portfolio",
@@ -40,6 +43,7 @@ for repo, proj in PROJECT_OF_REPO.items():
         h, t, email = line.split(" ", 2)
         if repo in AUTHOR_FILTER and email != me: continue
         if h in seen: continue
+        if SINCE and ts(t) < ts(SINCE): continue
         seen.add(h); git_times[proj].append(ts(t))
 
 # ---- 2) transcripts
@@ -79,7 +83,9 @@ for f in glob.glob(f"{HOME}/.claude/projects/*/*.jsonl") + glob.glob(f"{HOME}/.c
             if not pat_u.search(line): continue
             t = pat_t.search(line)
             if not t or not cwd: continue
-            tt = ts(t.group(1)); pr = proj_of_cwd(cwd); all_chat.append(tt)
+            tt = ts(t.group(1))
+            if SINCE and tt < ts(SINCE): continue
+            pr = proj_of_cwd(cwd); all_chat.append(tt)
             if pr.startswith("General"):
                 hits = [n for n, rx in KWC if rx.search(line)]
                 general_msgs.append((tt, hits))
