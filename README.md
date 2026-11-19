@@ -36,6 +36,8 @@ fixed it, what we learned, and what we're doing with it now. All numbers come fr
 | Nov 1 | Grant rejected ("not far enough along"); Trade Desk memecoin desk starts |
 | Nov 5 | 3 pull requests fixing version 1 reading in openbook-v2, x402scan and ibc-contracts |
 | Nov 8–9 | Memecoin lanes all lose → retired; Night Desk stocks + forex research; Rug Check live; forex forward paper test starts |
+| Nov 11 | Drain Check live; first real outside users (3 wallet lookups, all from X links) |
+| Nov 11–17 | 80 free-month offers to agent teams: 0 Pulse callers; 2 teams built their own check from the write-up. Stopped Nov 19 |
 
 ## Time spent (estimated)
 Measured two ways: **git commits** (commits under 2 hours apart = one session, plus 30 minutes of lead-in) and **Claude Code
@@ -73,11 +75,13 @@ a pile of honest research, and the skills to build and run cloud services end to
 3. **Most "wins" are bugs until proven otherwise.** In trading especially.
 4. **Real problems found in real data are worth the most.** The version 1 transaction bug got fixes merged in 6 other projects.
 5. **A phone and a cloud account are enough to build real services.** Heavy work goes to the cloud; the phone runs the show.
-6. **AI makes you fast, not right.** It writes the code; checking the numbers, the claims and the edge cases is still on me.
+6. **Don't hand the answer to the people you want as customers.** 80 detailed offers got 0 callers; teams copied the
+   fix. The only real users came from a link posted right where someone had just been robbed.
+7. **AI makes you fast, not right.** It writes the code; checking the numbers, the claims and the edge cases is still on me.
    ([more on APIs, cloud and AI](apis-cloud-ai.md))
 
 ## What we're doing with it now
-- **Pulse:** upkeep, and reaching people directly (Rug Check, Telegram bot) instead of waiting in directories.
+- **Pulse:** upkeep. Developer outreach stopped (Nov 19); the focus is Drain Check, the only tool strangers have used.
 - **Funding:** next targets Superteam, Colosseum, and re-applying to the Solana Foundation once there are real users.
 - **Trading research:** the four surviving forex systems run as a forward paper test (fake money) from Nov 9; the stock desk
   keeps tiny $50 test buys; memecoin lanes are mostly retired.

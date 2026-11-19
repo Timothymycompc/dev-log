@@ -22,10 +22,14 @@ Built in spare time, about 80% of it on a phone (Pixel, Termux + Debian), with C
 | Oct 21 | Owner "Explorer": every call, its inputs, and a flag for fake browsers | Showed that most "visitors" were bots faking Chrome/Safari — so usage is counted honestly now |
 | Oct 25 | Public Telegram bot **@SolanaPulseCheckBot** | First runs by real people through Telegram |
 | Nov 9 | **Rug Check**: a free, plain web page ("is this Solana token a rug pull?") that runs on Pulse's `token_safety` | Distribution pivot: meet people where they panic-search, instead of waiting in agent directories |
+| Nov 11 | **Drain Check**: a free page that traces a drained wallet (Pulse `trace`): where the money went, how it happened, who took it | **First real outside users of anything I built:** 3 confirmed wallet lookups by strangers (Nov 12, 13, 15). All 3 arrived through links on X, none from search or directories |
+| Nov 11–17 | **80 "free month" offers** to agent teams whose code signs Solana transactions without checking them, each pointing at the exact line | **0 took the free month, 0 became Pulse callers.** 75 never answered; 1 interested team paused its trading instead; 2 built their own local check from the write-up (one wrote "we want the pre-sign check to run entirely locally… we'll implement the approach you outlined"). Offers stopped Nov 19 |
 
 ## Honest numbers
 - **180,825 logged calls** (Oct 9 → Oct 31), almost all from directory scanners, uptime monitors and our own tests.
   **0 confirmed outside paying users**; all-time revenue $1.11, all from our own test payments.
+- Week of Nov 12–19: ~173,000 calls from ~5,000 automated callers; all 55 paid calls were our own tests. The only confirmed
+  outside people were 3 Drain Check lookups, all via X links.
 - Benchmark 9/9; everyday test 200/200 with 0 false blocks; 100 young tokens checked and re-checked after 7 days to measure
   whether AVOID/CAUTION calls came true; known-good tokens 47/54 SAFE.
 - Competitors appeared during the build (Dexra on Oct 17, then the "Trading Agent Stack"). Pre-sign token checkers are
@@ -40,10 +44,12 @@ Built in spare time, about 80% of it on a phone (Pixel, Termux + Debian), with C
 | Version 1 transactions | Fixed in Pulse, measured how common they are, reported to 32 projects, followed up until fixed |
 | Usage numbers that looked like people but weren't | Tagged known monitors and our own networks, flagged fake browsers, never call a caller a "person" without evidence |
 | No users from directories | Moved toward people: Telegram bot, Rug Check page, bug reports that help other developers |
+| Detailed fix write-ups taught teams to build the check themselves | Stopped the offers (Nov 19); a full write-up is a free answer, not a reason to call a paid API |
 | Grant rejected | Kept going; next targets are Superteam, Colosseum, and re-applying with real users |
 | Developing on a phone: headless browsers crash, the full test suite reset the terminal | Videos rendered natively in Termux or in Google Cloud Build; full test runs in the cloud, single test files on the phone |
 
 ## Now
-Pulse is live and in upkeep. Effort has moved to getting real people to use it (Rug Check, the Telegram bot) and to research
+Pulse is live and in upkeep. Developer outreach (bug reports, team offers) is stopped. Effort has moved to the one thing real
+people have used: Drain Check, reached through links where someone has just been drained (Rug Check, the Telegram bot) and to research
 that uses its tools as the data source (the [trading review](https://github.com/Timothymycompc/trading-review)). Sister project
 **Base Pulse** is the same idea on Base (live since Oct 14; 18k calls, all probes/directories so far).
