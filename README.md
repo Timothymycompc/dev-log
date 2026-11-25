@@ -21,6 +21,7 @@ fixed it, what we learned, and what we're doing with it now. All numbers come fr
 | [APIs, cloud hosting and AI](apis-cloud-ai.md) | What I learned using ~20 APIs, running everything on Google Cloud, and building with (and for) AI |
 | [Secrets and security](security.md) | How keys, wallets and user data are kept safe: Secret Manager, hard wallet limits, check-before-sign, no IPs stored |
 | [Study log](study/README.md) | Daily lessons from real bugs in my live projects, with honest grades: what I'm good at and what to work on |
+| [Investigator case studies](cases/README.md) | Real Solana wallet traces written up like a fraud analyst: what the chain proves, what it can't, and the tool's own misses |
 | [Trading review](https://github.com/Timothymycompc/trading-review) | Honest backtests of memecoins, stocks and forex — with all code and the raw price data |
 
 ## Timeline
