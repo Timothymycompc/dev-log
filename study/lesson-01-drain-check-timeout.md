@@ -41,3 +41,22 @@ The fix: everyone who opens the same wallet shares one trace (a *promise* kept i
 - Explain the **how**, step by step, not just the **what** ("first X, then Y, so Z").
 - Place each problem in its **layer** before suggesting a fix.
 - Use the exact words: 429, timeout, promise, cache.
+
+## Session 2 (2026-11-26): failures and my first test
+
+| # | Question | My answer | Score |
+|---|---|---|---|
+| 5 | Kept failure: what does the 9:02 visitor get? | "Timed out": right outcome | Right |
+| 6 | Is a failure about the wallet or something else? | "Not the blockchain layer, the way the data is accessed" | **Strong**: placed it in the right layer (fixes a weak spot from session 1) |
+| 7 | Test: if the failure were kept, what would `runs` be? | Said the test would fail (right), but thought `runs` would keep climbing; really it stays at 1 (I mixed it up with the Lesson 1 pile-up bug) | Partly right |
+| 8 | What do you check in a plumbing pressure test? | Glued joints, no leaks, main sewer tested harder than a sink line, sand wrap to spot wet spots | **Strong**: matched setup, checks, risk-based testing, making failures visible |
+| 9 | Explain back: what is a code test? | "The degree to which you check the glued pieces, fittings and pressures" | Close: that's *how much* you test (coverage); a test is the check itself |
+
+**Corrected definition:** a test is a small piece of extra code that uses the real code the way a visitor would and
+checks the result is what should happen. *How many* things you check is called **coverage**.
+
+**New rule learned:** keep facts, not temporary conditions. A good trace is a fact about the blockchain; a failure is
+a temporary problem in the access layer.
+
+**Session 2 grade: B.** Layers clicked. Next: tell the two mirror-image bugs apart (`runs` too high vs too low) and
+read a second test on my own.

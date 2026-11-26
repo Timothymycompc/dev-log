@@ -9,11 +9,13 @@ some gaps in the how. C = right neighborhood, mostly the what. D = lost, needs t
 
 | Date | Lesson | Grade | Strongest | Work on | Went back and fixed |
 |---|---|---|---|---|---|
-| 2026-11-25 | [1. The day Drain Check choked](lesson-01-drain-check-timeout.md) | B | Found the staleness trade-off on my own | Explaining the step-by-step *how*; knowing which layer a problem is in | (not yet) |
+| 2026-11-25 | [1. The day Drain Check choked](lesson-01-drain-check-timeout.md) | B | Found the staleness trade-off on my own | Explaining the step-by-step *how*; knowing which layer a problem is in | Layers: 2026-11-26 session 2 (placed a failure in the access layer, not the blockchain) |
+| 2026-11-26 | 1 (session 2). Failures and my first test | B | Layers; plumbing pressure test = code test | Mirror-image bugs (`runs` too high vs too low); exact definition of a test | (not yet) |
 
 Misses stay in, on purpose. The **Went back and fixed** column records when I return to a weak answer, get it right,
 and use it in a later lesson. That's where the learning shows.
 
 ## Running list
 **Good at:** instincts for what should happen; spotting risks and trade-offs; real-world failure thinking.
-**Improving:** step-by-step explanations; layers; exact terms.
+**Improving:** step-by-step explanations; exact terms; reading tests.
+**Fixed:** layers (2026-11-26).
